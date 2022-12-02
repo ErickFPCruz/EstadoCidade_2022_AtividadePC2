@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Aprendendo DOM - Cidade/Estado</title>
+</head>
+<body>
+    <form>
+        <div class="flexHr flexVr">
+            <div>
+                <label for="selectEstado">Estado</label>
+                <select name="selectEstado" id="selectEstado">
+                    <option value="0"> Selecione seu estado </option>
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+            </div>
+            <div>
+                <label for="selectCidade">Cidade</label>
+                <select name="selectCidade" id="selectCidade" disabled>
+                    <option value="0"> Selecione sua cidade </option> 
+                </select>
+            </div>
+        </div>
+        <div id="exibeCidadeEstado" class="divDeTexto"></div>
+    </form>
+
+</body>
+</html>

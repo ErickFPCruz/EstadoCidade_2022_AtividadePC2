@@ -1,0 +1,43 @@
+:root {
+    --corDeFonte: rgb(208, 247, 70);
+}
+
+body {
+    background-color: rgb(39, 19, 11);
+    color: var(--corDeFonte);
+    font-size: 1.3em;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.flexHr {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.divDeTexto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+select, label {
+    display: block;
+    text-align: center;
+}
+
+select {
+    color: var(--corDeFonte);
+    background-color: rgb(73, 71, 71);
+    font-size: 0.7em;
+}
